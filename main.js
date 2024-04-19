@@ -50,7 +50,7 @@ function calculaTempo(tempoObjetivo) {
         for (let i=0; i < contadores.length; i++){
         
         }
-         contadores[i].textContent = calculaTempo(tempos[1]); //textContent mostra na tela a ne
+         contadores[i].textContent = calculaTempo(tempos[1]); //textContent mostra na tela a meta
         }
         function comecaCronometro(){
         
