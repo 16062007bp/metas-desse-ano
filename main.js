@@ -36,10 +36,10 @@ function calculaTempo(tempoObjetivo) {
 
     if (tempoFinal > 0){
 
-        | return dias + dias + horas + horas " + minutos +" minutos" + segundos +
+        return dias + "dias" + horas + "horas " + minutos + "minutos" + segundos+ " segundos ";
         
         }else{
-        return" PRAZO ENCERRADO!!!
+        return" PRAZO ENCERRADO!!!"
         }
         function atualizaCronometro(){
         
@@ -50,10 +50,11 @@ function calculaTempo(tempoObjetivo) {
         for (let i=0; i < contadores.length; i++){
         
         }
-        | contadores[i].textContent = calculaTempo(tempos[1]); //textContent mostra na tela a ne
+         contadores[i].textContent = calculaTempo(tempos[1]); //textContent mostra na tela a ne
         }
         function comecaCronometro(){
         
-        atualizaCronometro(); //chamada da função criada anteriormente dentro desta função setInterval(atualizaCronometro, 1000); //função que faz a contagem do tempo a cada seg.
-        
-        comecaCronometrd(); //chamada da função que inicia o cronômetro();//chama da ffuncao que inica o cronometro
+        atualizaCronometro(); //chamada da função criada anteriormente dentro desta função 
+        setInterval(atualizaCronometro, 1000); //função que faz a contagem do tempo a cada seg.
+        }
+        comecaCronometro(); //chamada da função que inicia o cronômetro();//chama da ffuncao que inica o cronometro
