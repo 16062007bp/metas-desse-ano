@@ -43,19 +43,20 @@ function calculaTempo(tempoObjetivo) {
         return" PRAZO ENCERRADO!!!"
         }
 
-    }
+}
         function atualizaCronometro(){
-            function atualizacronometro()
+            
                 
                 for (let i=0; i < contadores.length; i++){
                 
-                Ano
-                
+                               
                 contadores[i].textContent = calculaTempo(tempos[i]); //textContent mostra na tela a meta
         }
        
          
         }
+
+    
         function comecaCronometro(){
         
         atualizaCronometro(); //chamada da função criada anteriormente dentro desta função 
