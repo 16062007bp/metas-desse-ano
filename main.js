@@ -42,13 +42,9 @@ function calculaTempo(tempoObjetivo) {
 
         return" PRAZO ENCERRADO!!!"
         }
-        function atualizaCronometro(){
-        
-                for (let i=0; i < contadores.length; i++){
-        contadores[i].textContent = calculaTempo(tempos[i]); //textContent mostra na tela a meta
-        } 
-        }
-        
+
+    }
+        function atualizaCronometro
        
          
         }
