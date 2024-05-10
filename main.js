@@ -39,18 +39,18 @@ function calculaTempo(tempoObjetivo) {
         return dias + "dias" + horas + "horas " + minutos + "minutos" + segundos+ " segundos ";
         
         }else{
+
         return" PRAZO ENCERRADO!!!"
         }
         function atualizaCronometro(){
         
-        //laço de repetição para interagir com todos os objetivos
-        
+                for (let i=0; i < contadores.length; i++){
+        contadores[i].textContent = calculaTempo(tempos[i]); //textContent mostra na tela a meta
+        } 
         }
         
-        for (let i=0; i < contadores.length; i++){
-        
-        }
-         contadores[i].textContent = calculaTempo(tempos[1]); //textContent mostra na tela a meta
+       
+         
         }
         function comecaCronometro(){
         
