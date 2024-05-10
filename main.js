@@ -44,7 +44,15 @@ function calculaTempo(tempoObjetivo) {
         }
 
     }
-        function atualizaCronometro
+        function atualizaCronometro(){
+            function atualizacronometro()
+                
+                for (let i=0; i < contadores.length; i++){
+                
+                Ano
+                
+                contadores[i].textContent = calculaTempo(tempos[i]); //textContent mostra na tela a meta
+        }
        
          
         }
